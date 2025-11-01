@@ -3,7 +3,9 @@
     justify-content: space-between;
 }
 .shown-filter-options{
-    border: 1px solid red;
+    border: 2px solid red;
+    width: 200px;
+   
 }
 .filter-option{
     display: flex;
@@ -13,7 +15,11 @@
 
 
 .recommended-list{
+    position: absolute;
     list-style-type: none;
+    z-index: 10;
+    right: 0;
+    
 }
 .recommend-this{
     border: 1px solid green;

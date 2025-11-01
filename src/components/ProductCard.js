@@ -1,9 +1,12 @@
 
+import './ProductCard.css'
 
-const ProductCard = () => {
+
+const ProductCard = ({product}) => {
   return (
-    <div>
-      ProductCard
+    <div className='product-card'>
+        <img className='product-image' alt={product.title} src={product.image}/>
+        <p>{product.title}</p>
     </div>
   )
 }

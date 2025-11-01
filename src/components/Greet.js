@@ -2,9 +2,11 @@
 
 const Greet = () => {
   return (
-    <div>
-      <h1>DISCOVER OUR PRODUCTS</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <div className="app-greet">
+      <div className="greet-container">
+        <h1>DISCOVER OUR PRODUCTS</h1>
+        <p className="greet-description">Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
+      </div>
     </div>
   )
 }

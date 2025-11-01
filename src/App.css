@@ -7,14 +7,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.filters-and-products-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.all-products-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px solid blue;
+}
 
 
+.app-footer{
+   background-color: #000000;
+   color: #ffff;
+}
 
+.primary-footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
 
-
-
-
-
+.secondary-footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.secondary-footer-links{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.copyright-description{
+  text-align: center;
+  padding: 10px;
+}
+.app-greet{
+  display: flex;
+  justify-content: center;
+}
+.greet-container{
+  text-align: center;
+  width: 600px;
+}
 
 
 
