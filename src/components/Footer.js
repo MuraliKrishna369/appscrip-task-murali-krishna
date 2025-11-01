@@ -38,27 +38,31 @@ const Footer = () => {
        </div>
        <hr></hr>
        <div className="secondary-footer">
-          <div className="secondary-footer-links">
+          <div>
               <h1>metta muse</h1>
-              <a>About Us</a>
-              <a>Stories</a>
-              <a>Artisans</a>
-              <a>Boutiques</a>
-              <a>Contact Us</a>
-              <a>EU Compilances Docs</a>
+              <div className="secondary-footer-links">
+                <a>About Us</a>
+                <a>Stories</a>
+                <a>Artisans</a>
+                <a>Boutiques</a>
+                <a>Contact Us</a>
+                <a>EU Compilances Docs</a>
+              </div>
           </div>
-          <div className="secondary-footer-links">
+          <div>
               <h1>QUICK LINKS</h1>
-              <a>Orders & Shopping</a>
-              <a>Join/Login as a seller</a>
-              <a>Return & refunds</a>
-              <a>FAQ</a>
-              <a>Privacy Policy</a>
-              <a>Terms & Conditions</a>
+              <div className="secondary-footer-links">
+                <a>Orders & Shopping</a>
+                <a>Join/Login as a seller</a>
+                <a>Return & refunds</a>
+                <a>FAQ</a>
+                <a>Privacy Policy</a>
+                <a>Terms & Conditions</a>
+              </div>  
           </div>
           <div>
               <h1>FOLLOW US</h1>
-              <div>
+              <div className="follow-us-icons">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.599998" y="0.600098" width="32" height="32" rx="16" fill="black" stroke="white" stroke-width="1.2"/>
   <g clip-path="url(#clip0_77095_550)">

@@ -5,10 +5,33 @@
 .primary-header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .secondary-header{
   align-self: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
+}
+.menu-icon{
+  display: none;
+}
+
+
+@media (max-width: 480px) {
+   .header{
+    border: 1px solid red;
+   }
+   .menu-icon{
+    display: inline;
+    position: relative;
+    left: 10px;
+   }
+   .lang-change{
+    display: none;
+   }
+   .secondary-header{
+    display: none;
+   }
+  
 }
