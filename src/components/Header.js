@@ -44,11 +44,11 @@ const Header = () => {
         </div>
       </div>
       <ul className="secondary-header">
-        <a>SHOP</a>
-        <a>SKILLS</a>
-        <a>STORIES</a>
-        <a>ABOUT</a>
-        <a>CONTACT US</a>
+        <span>SHOP</span>
+        <span>SKILLS</span>
+        <span>STORIES</span>
+        <span>ABOUT</span>
+        <span>CONTACT US</span>
       </ul>
     </header>
   )

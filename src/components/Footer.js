@@ -41,23 +41,23 @@ const Footer = () => {
           <div>
               <h1>metta muse</h1>
               <div className="secondary-footer-links">
-                <a>About Us</a>
-                <a>Stories</a>
-                <a>Artisans</a>
-                <a>Boutiques</a>
-                <a>Contact Us</a>
-                <a>EU Compilances Docs</a>
+                <span>About Us</span>
+                <span>Stories</span>
+                <span>Artisans</span>
+                <span>Boutiques</span>
+                <span>Contact Us</span>
+                <span>EU Compilances Docs</span>
               </div>
           </div>
           <div>
               <h1>QUICK LINKS</h1>
               <div className="secondary-footer-links">
-                <a>Orders & Shopping</a>
-                <a>Join/Login as a seller</a>
-                <a>Return & refunds</a>
-                <a>FAQ</a>
-                <a>Privacy Policy</a>
-                <a>Terms & Conditions</a>
+                <span>Orders & Shopping</span>
+                <span>Join/Login as a seller</span>
+                <span>Return & refunds</span>
+                <span>FAQ</span>
+                <span>Privacy Policy</span>
+                <span>Terms & Conditions</span>
               </div>  
           </div>
           <div>
