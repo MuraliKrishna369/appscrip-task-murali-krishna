@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.primary-header{
+  display: flex;
+  justify-content: space-between;
+}
+.secondary-header{
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}

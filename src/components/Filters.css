@@ -1,0 +1,20 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shown-filter-options{
+    border: 1px solid red;
+}
+.filter-option{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.recommended-list{
+    list-style-type: none;
+}
+.recommend-this{
+    border: 1px solid green;
+}

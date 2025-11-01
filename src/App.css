@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);  /* Desktop: 3 columns */
