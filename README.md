@@ -7,3 +7,16 @@
 ### Overview
 ***This page simulates an e-commerce listing interface🛒. <br/> 
 including sections like a header with navigation, filters for refining products, a grid of product cards, and a footer.😋***
+
+### ⚙️ Quick Start (Development)
+1. Clone the repo
+   - `git clone https://github.com/MuraliKrishna369/appscrip-task-murali-krishna.git`
+   - `cd appscrip-task-murali-krishna`
+2. Install dependencies
+  - `npx create-react-app .`
+  - `npm axios`
+  - `npm start`
+Now visit 👉 [http://localhost:3000](http://localhost:3000)
+
+
+
