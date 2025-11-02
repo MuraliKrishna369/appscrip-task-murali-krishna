@@ -18,5 +18,10 @@ including sections like a header with navigation, filters for refining products,
   - `npm start`
 Now visit 👉 [http://localhost:3000](http://localhost:3000)
 
+### Demo
+- Screenshots
+  ![desktop-1](https://res.cloudinary.com/dtbojznp3/image/upload/v1762077562/Screenshot_2025-11-02_144730_trdxyc.png))
+  
+
 
 
