@@ -21,6 +21,9 @@ Now visit 👉 [http://localhost:3000](http://localhost:3000)
 ### Demo
 - Screenshots
   ![desktop-1](https://res.cloudinary.com/dtbojznp3/image/upload/v1762077562/Screenshot_2025-11-02_144730_trdxyc.png))
+  ![desktop-2](https://res.cloudinary.com/dtbojznp3/image/upload/v1762077666/Screenshot_2025-11-02_144938_vtjlds.png)
+  ![mobile-1](https://res.cloudinary.com/dtbojznp3/image/upload/v1762077605/Screenshot_2025-11-02_145026_xgtfga.png)
+  ![mobile-2](https://res.cloudinary.com/dtbojznp3/image/upload/v1762077641/Screenshot_2025-11-02_145102_jkmggk.png)
   
 
 
