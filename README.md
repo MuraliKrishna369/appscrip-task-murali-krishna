@@ -22,6 +22,7 @@ Now visit 👉 [http://localhost:3000](http://localhost:3000)
 - Screenshots
   ![product-listing-page-website](https://res.cloudinary.com/dtbojznp3/image/upload/v1762078804/Untitled_design_1_mwjh48.png) 
 
+- Live Link [open product listing page](https://appscrip-task-murali-krishna.netlify.app/)
 
 
 
