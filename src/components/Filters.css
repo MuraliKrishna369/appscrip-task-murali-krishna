@@ -1,11 +1,18 @@
 .filter-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
     border: 1px solid #F1F1F1;
     margin-bottom: 10px;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
-   }
+}
+.hide-and-show-filter{
+    display: flex;
+    align-items: center;
+}
 .shown-filter-options{
     width: 180px;
    
@@ -14,7 +21,13 @@
     display: flex;
     justify-content: space-between;
 }
-
+.recommended-filter-button{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 140px;
+   
+}
 .recommended-list{
     position: absolute;
     list-style-type: none;
@@ -34,6 +47,14 @@
     padding: 5px; 
     font-size: 15.5px;
 }
+.recommended-btn{
+        font-weight: 600;
+}
+.show-filter-btn{
+    max-width: 200px;
+    border: none;
+    background-color: inherit;
+}
 @media (max-width: 480px) {
     .filter-container{
         display: flex;
@@ -46,17 +67,11 @@
     .down-arrow{
         display: none;
     }
-    .filter-button-for-small-devices{
-        display: inline;
-        font-weight: 600;
-    }
-    .filter-button-for-large-devices{
-        display: none;
-    }
+    .recommended-filter-button{
+        width: auto;
    
-    .recommended-btn{
-        font-weight: 600;
     }
+    
     .shown-filter-options{
         width: 160px;
         font-size: 10px;

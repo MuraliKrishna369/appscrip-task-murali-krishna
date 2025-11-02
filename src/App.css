@@ -28,8 +28,14 @@ h1{
 
 }
 
+.primary-footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
-
+.display-only-small-devices{
+    display: none;
+}
 .secondary-footer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -67,11 +73,12 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .greet-description{
-  text-align: center;
-  width: 90%;
+  width: 50%;
   color: #252020;
+  font-size: 20px;
 }
 .line-for-mobile-devices{
   display: none;
@@ -83,8 +90,41 @@ h1{
 }
 
 
+.subscribe-button{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 30%;
+    height: 56px;
+    width: 150px;
+    border: 1.14px solid #ffff;
+    border-radius: 3px;
+  }
+ .email-input{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+  }
+  .email-subscribe-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .currency-state-container{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
 
 @media (max-width: 480px) {
+  .greet-description{
+     font-size: 12px;
+     width: 90%;
+  }
   .primary-footer{
     grid-template-columns: repeat(1, 1fr);
   }
@@ -94,6 +134,13 @@ h1{
   .primary-footer-description{
     font-size: 12px;
     width: 80%;
+    
+  }
+  .display-only-large-devices{
+    display: none;
+  }
+  .display-only-small-devices{
+    display: block;
   }
   .secondary-footer{
     display: grid;
@@ -114,7 +161,6 @@ h1{
   .email-input{
     width: 200px;
     height: 40px;
-    text-align: center;
   }
   .subscribe-button{
     background-color: #000000;
@@ -125,6 +171,7 @@ h1{
     border: 1.14px solid #ffff;
     border-radius: 3px;
   }
+  
   .note-for-transaction{
     display: none;
   }

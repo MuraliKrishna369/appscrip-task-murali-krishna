@@ -24,12 +24,31 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
 }
-
+.top-most-header-container{
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.icon-theme-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lorem-ipsum-text{
+  color: #EB4C6B;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
 @media (max-width: 480px) {
+   .top-most-header-container{
+      grid-template-columns: repeat(1, 1fr);
+   }
    .primary-header{
     grid-template-columns: repeat(4,1fr);
-    
-   
    }
    .primary-header-heading{
     font-size: 20x;
@@ -37,8 +56,6 @@
     width: 61px;
     position: relative;
     right: 60px;
-   
-
    }
    .menu-icon{
     display: inline;
@@ -63,5 +80,10 @@
    .secondary-header{
     display: none;
    }
-  
+    .display-only-large-devices{
+      display: none;
+    }
+    .display-only-small-devices{
+      display: block;
+    }
 }
