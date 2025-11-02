@@ -6,7 +6,13 @@ const ProductCard = ({product}) => {
   return (
     <div className='product-card'>
         <img className='product-image' alt={product.title} src={product.image}/>
-        <p>{product.title}</p>
+        <p className='product-description'>
+          <span className='product-title'>{product.title}</span>
+          <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.58 12.3067C7.35333 12.3867 6.98 12.3867 6.75333 12.3067C4.82 11.6467 0.5 8.89333 0.5 4.22667C0.5 2.16667 2.16 0.5 4.20667 0.5C5.42 0.5 6.49333 1.08667 7.16667 1.99333C7.84 1.08667 8.92 0.5 10.1267 0.5C12.1733 0.5 13.8333 2.16667 13.8333 4.22667C13.8333 8.89333 9.51333 11.6467 7.58 12.3067Z" stroke="#292D32" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </p>
+        <p className='sign-in'>Sign in or Create an account to see pricing</p>
     </div>
   )
 }

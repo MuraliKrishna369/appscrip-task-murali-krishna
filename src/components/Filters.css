@@ -1,9 +1,12 @@
 .filter-container{
     display: flex;
     justify-content: space-between;
-}
+    border: 1px solid #F1F1F1;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+   }
 .shown-filter-options{
-    border: 2px solid red;
     width: 180px;
    
 }
@@ -11,8 +14,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .recommended-list{
     position: absolute;
@@ -22,5 +23,43 @@
     
 }
 .recommend-this{
-    border: 1px solid green;
+    padding: 5px;
+    font-size: 15px;
 }
+.filter-button-for-small-devices{
+    display: none;
+}
+.recommended-list{
+    background-color: #ffff;   
+    padding: 5px; 
+    font-size: 15.5px;
+}
+@media (max-width: 480px) {
+    .filter-container{
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid #F1F1F1;
+    }
+    .number-of-items{
+        display: none;
+    }
+    .down-arrow{
+        display: none;
+    }
+    .filter-button-for-small-devices{
+        display: inline;
+        font-weight: 600;
+    }
+    .filter-button-for-large-devices{
+        display: none;
+    }
+   
+    .recommended-btn{
+        font-weight: 600;
+    }
+    .shown-filter-options{
+        width: 160px;
+        font-size: 10px;
+    }
+  
+}    

@@ -1,10 +1,12 @@
 .header{
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #F1F1F1;
 }
 .primary-header{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
   align-items: center;
 }
 .secondary-header{
@@ -17,15 +19,43 @@
   display: none;
 }
 
+.primary-header-features{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
 
 @media (max-width: 480px) {
-   .header{
-    border: 1px solid red;
+   .primary-header{
+    grid-template-columns: repeat(4,1fr);
+    
+   
+   }
+   .primary-header-heading{
+    font-size: 20x;
+    font-weight: 400;
+    width: 61px;
+    position: relative;
+    right: 60px;
+   
+
    }
    .menu-icon{
     display: inline;
     position: relative;
-    left: 10px;
+    right: 15px;
+    
+   }
+   .app-logo{
+    width: 26px;
+    position: relative;
+    right: 70px;
+   }
+   .primary-header-features{
+     grid-template-columns: repeat(3,1fr);
+   }
+   .contact-icon{
+    display: none;
    }
    .lang-change{
     display: none;

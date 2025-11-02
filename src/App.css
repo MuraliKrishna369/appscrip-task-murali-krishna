@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h1{
+  font-weight: 400;
+}
 .filters-and-products-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -15,21 +17,18 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  border: 2px solid blue;
+  padding: 5px;
 }
 
 
 .app-footer{
    background-color: #000000;
    color: #ffff;
+   padding: 10px;
+
 }
 
-.primary-footer{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-}
+
 
 .secondary-footer{
   display: grid;
@@ -42,40 +41,59 @@ body {
   grid-template-columns: repeat(1,1fr);
 }
 .copyright-description{
-  text-align: center;
-  padding: 10px;
-}
-.app-greet{
   display: flex;
   justify-content: center;
+  font-size: 10px;
+}
+
+
+.home-shop-buttons{
+  display: none;
+}
+.home-shop-btn{
+   width: 80px;
+   border: none;
+   background-color: #ffff;
+}
+.home-btn{
+  color: #BFC8CD;
+  border-right: 1px solid #BFC8CD;
+}
+.shop-btn{
+  color: #252020;
 }
 .greet-container{
-  text-align: center;
-  width: 600px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-
-
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* Desktop: 3 columns */
-  gap: 20px;
+.greet-description{
+  text-align: center;
+  width: 90%;
+  color: #252020;
 }
 .line-for-mobile-devices{
   display: none;
 }
-@media (max-width: 768px) {
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);  /* Tablet: 2 columns */
-  }
+
+.app-greet{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+
+
 @media (max-width: 480px) {
   .primary-footer{
     grid-template-columns: repeat(1, 1fr);
-    align-items: start;
-    justify-content: start;
+  }
+  .primary-footer-heading{
+    font-size: 18px;
+  }
+  .primary-footer-description{
+    font-size: 12px;
+    width: 80%;
   }
   .secondary-footer{
     display: grid;
@@ -89,5 +107,40 @@ body {
   .follow-us-icons{
     display: none;
   }
-  
+  .home-shop-buttons{
+    display: block;
+    font-size: 12px;
+  }
+  .email-input{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+  }
+  .subscribe-button{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 30%;
+    height: 46px;
+    width: 100px;
+    border: 1.14px solid #ffff;
+    border-radius: 3px;
+  }
+  .note-for-transaction{
+    display: none;
+  }
+  .secondary-footer-links-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .follow-us-icons{
+    display: none;
+  }
+  .accepted-payment-container{
+    font-size: 14px;
+  }
+  .payment-gateways-images{
+    width: 90%;
+  }
 }
